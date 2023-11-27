@@ -1,0 +1,364 @@
+@import url('https://fonts.cdnfonts.com/css/studebaker-nf');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+body {
+    background-color: #696969;
+}
+
+/* NAVBAR STYLE STARTS */
+.navbar-brand {
+    font-family: 'Studebaker NF', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: #D2691E;
+}
+
+.navbar-nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item .nav-link {
+    color: white;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    background-color: rgb(255, 129, 57);
+    width: 0px;
+    height: 3px;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-item:hover .nav-link::after {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: rgb(255, 129, 57);
+}
+
+/* NAVBAR STYLE ENDS */
+
+/* MODAL STYLE STARTS */
+.btn-login {
+    background-color: #D2691E;
+    color: white;
+}
+
+/* MODAL STYLE ENDS */
+
+/* CONTAINER STYLE STARTS */
+#about {
+    margin-bottom: 100px;
+}
+
+.products-link {
+    color: white;
+}
+
+.products-link:hover{
+    color: #D2691E;
+}
+.container {
+    color: white !important;
+}
+
+.b-design {
+    font-family: 'Studebaker NF', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #D2691E;
+}
+
+.home-heading {
+    font-family: 'Domine', serif;
+    font-size: 28px;
+}
+
+.branch-text {
+    font-size: 20px;
+}
+
+.best-seller-para, .franchise-text {
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    text-shadow: 2px 2px #D2691E;
+}
+
+.franchise-para {
+    background-color: rgb(54, 54, 54);
+    padding: 28px;
+}
+.heading-about {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 129, 57);
+    margin: 10px 0px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.heading-about::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: rgb(255, 129, 57);
+    width: 46px;
+    height: 2px;
+
+}
+
+.link-about {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 129, 57, 0.5);
+    color: rgb(255, 129, 57);
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 22px;
+    position: relative;
+    z-index: 22;
+}
+
+.link-about:hover {
+    color: white;
+}
+
+.link-grow {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 129, 57, 0.5);
+    color: rgb(255, 129, 57);
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 22px;
+    position: relative;
+    z-index: 22;
+}
+
+.link-grow:hover {
+    color: white;
+}
+
+.span-about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 129, 57);
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.4s ease-in;
+}
+
+.link-about:hover .span-about {
+    width: 100%;
+}
+
+.span-grow {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 129, 57);
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.4s ease-in;
+}
+
+.link-grow:hover .span-grow {
+    width: 100%;
+}
+
+.fa-arrow-right {
+    color: rgb(255, 129, 57);
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.fa-arrow-right:hover {
+    color: white;
+}
+
+.btn {
+    background-color: #D2691E;
+}
+
+.card-title {
+    color: black;
+}
+
+.heading-products {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 129, 57);
+    margin: 10px 0px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.heading-grow {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 129, 57);
+    margin: 10px 0px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.heading-location {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 129, 57);
+    margin: 10px 0px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.contact-section {
+    margin-bottom: -100vh;
+}
+.form-origin {
+    margin-top: 100px;
+    width: 100%;
+    height: 480px;
+    background-color: rgb(42, 41, 41);
+    padding: 50px 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+.form-origin input {
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #e4e3e3;
+    border-radius: 5px;
+    outline: none;
+    padding: 16px 22px;
+    margin-bottom: 40px;
+}
+
+.form-origin textarea {
+    height: 200px;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.btn-submit {
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color: #f4813f;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5ex;
+    text-decoration: none;
+    margin: 20px 0px;
+    border: 2px solid rgb(255, 129, 57);
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-text:hover {
+    color: #D2691E;
+}
+
+.footer-text-copyright {
+    color: white;
+}
+
+.btn-submit-form {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: #f4813f;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5ex;
+    text-decoration: none;
+    margin: 10px 0px;
+    border: 2px solid rgb(255, 129, 57);
+}
+
+.btn-one {
+    background-color: rgb(255, 129, 57);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.btn-one:hover {
+    background-color: rgb(234, 105, 31);
+    transition: 0.5s;
+}
+
+#products {
+    margin-top: 100px;
+}
+
+#contact {
+    margin-top: 160px;
+}
+
+/* FAQS STARTS HERE */
+
+#faqs {
+    margin-top: 100px;
+}
+
+.faqs-para {
+    background-color: rgb(54, 54, 54);
+    padding: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FAQS STYLE ENDS */
+
+
+/* MEDIA QUERIES STARTS HERE */
+
+@media only screen and (max-width: 768px) {
+    #about {
+        margin-top: -100px;
+    }
+
+    #products {
+        margin-top: 20px;
+    }
+
+    #contact {
+        margin-top: 50px;
+    }
+
+    #faqs {
+        margin-top: 20px;
+    }
+}
+
+
