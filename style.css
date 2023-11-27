@@ -338,6 +338,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.social-links a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px #D2691E;
+    margin: 0 10px;
+}
+
 /* FAQS STYLE ENDS */
 
 
@@ -358,6 +366,10 @@ body {
 
     #faqs {
         margin-top: 20px;
+    }
+
+    .card {
+        margin-top: 10px;
     }
 }
 
